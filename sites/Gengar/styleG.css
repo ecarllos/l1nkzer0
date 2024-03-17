@@ -1,0 +1,90 @@
+
+
+body{
+    background:linear-gradient(95deg,black, rgb(132, 0, 255)); 
+}
+
+.pokemon{
+    position: absolute;
+    top: -300px;
+    left: 100px;
+    font-family: helvetica;
+    font-size: 370px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+   
+#sobrepor{
+    position: absolute;
+    top: -450px;
+    left: -10px;
+    font-family: helvetica;
+    font-size: 420px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    z-index: -1;
+    }
+
+    #gengar{
+        position: absolute;
+        top: 250px;
+        left: 650px;
+        font-family: helvetica;
+        font-size: 220px;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #ball{
+    height: 5vh;
+     position: absolute;
+     top: 20px;
+     left: 30px;
+      
+    }
+    #logo{
+        font-family:verdana;
+       font-size: 20px;
+        color:brown;
+        position: absolute;
+        top: 20px;
+        left: 80px;
+    }
+    .Legenda{
+        
+        font-family: helvetica;
+        margin: 20px;
+        color: rgb(132, 0, 255);
+        position: absolute;
+        top: 690px;
+    }
+    main h2{
+        font-size: 52px;
+    }
+    main p {
+        font-size: 16px;
+    }
+    .buttom{
+
+        font-size: 50px;
+        position: relative;
+        top: 750px;
+        left: 1400px;
+        background-color: #5a0012;
+        border: none;
+        padding: 30px;
+        color: #fff;
+        width: 400px;
+        transition: 0.4s;
+    }
+    .buttom:hover{
+        background-color: rgb(255, 0, 0);
+        cursor: pointer;
+    }
