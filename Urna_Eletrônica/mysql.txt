@@ -1,0 +1,10 @@
+Banco de Dados (MySql)
+
+create database eleicoes;
+
+use eleicoes;
+
+create table urna(
+	id int primary key auto_increment,
+    voto varchar(20)
+);
