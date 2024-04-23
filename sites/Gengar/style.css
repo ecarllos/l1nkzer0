@@ -49,8 +49,8 @@ body{
     }
     #logo{
         font-family:verdana;
-       font-size: 20px;
-        color:brown;
+       font-size: 200px;
+        color:rgb(255, 255, 255);
         position: absolute;
         top: 12px;
         left: 70px;
