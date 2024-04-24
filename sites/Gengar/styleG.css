@@ -1,7 +1,6 @@
-
-
 body{
     background:linear-gradient(95deg,black, rgb(132, 0, 255)); 
+    
 }
 
 .pokemon{
@@ -50,12 +49,12 @@ body{
       
     }
     #logo{
-        font-family:verdana;
-       font-size: 20px;
-        color:brown;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: 30px;
+        color:rgb(255, 255, 255);
         position: absolute;
-        top: 20px;
-        left: 80px;
+        top: 6px;
+        left: 85px;
     }
     .Legenda{
         
@@ -71,20 +70,32 @@ body{
     main p {
         font-size: 16px;
     }
-    .buttom{
-
-        font-size: 50px;
+    div.buttom{
         position: relative;
-        top: 750px;
-        left: 1400px;
-        background-color: #5a0012;
-        border: none;
-        padding: 30px;
-        color: #fff;
-        width: 400px;
+        width: 1720px;
+        height: 870px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button{
+        position: absolute;
+        top: 100%;
+        left: 100%;
+        font-size: 32px;
+        padding: 30px 40px;
+        border: 0;
+        border-radius: 45px;
+        /* color: linear-gradient(to rigth, gold, rgb(255,123,0)); */
+        font-family: 'Courier New', Courier, monospace;
+        background-color: linear-gradient(to rigth, gold, rgb(255,123,0));
+        /* cursor: pointer; */
         transition: 0.4s;
     }
-    .buttom:hover{
-        background-color: rgb(255, 0, 0);
+
+    .button:hover{
+        
+        background-color: linear-gradient(to left, rgb(255,123,0), gold);
         cursor: pointer;
     }
