@@ -98,6 +98,7 @@ header img {
     width: 60%;
     height: 1px;
     background-color: var(--red);
+    transform: scaleX();
 }
 
 .navigation_social {
