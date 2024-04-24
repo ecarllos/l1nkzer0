@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text: #edf1f7;
+    --red: #c51212;
+    --blue: #0041c2;
+    --green: #14b02d;
+    --yellow: #ffc12b;
+}
+
+body, button, a {
+    color: var(--text);
+    font: 400 1rem "Mukta", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+#background{
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+}
