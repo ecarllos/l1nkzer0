@@ -1,3 +1,7 @@
 .container-logo{
-    background-color: darkslategray;
+    background-color:rgb(0, 204, 255);
+}
+
+:root{
+    --text: ;
 }
